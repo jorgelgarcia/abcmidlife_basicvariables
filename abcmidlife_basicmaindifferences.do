@@ -1,12 +1,14 @@
 /*
-Project:				AR Perry CBA
+Project:				Public Package
 Author:					Jorge Luis García (jlgarci@clemson.edu)
-Original Date:			March 18, 2024
+Original Date:				March 18, 2024
 This file:				basic mean differences, Carolina Abecedarian Project
 */
 
 //options
 set more off, permanently
+use abc_basicvariablesatmidlife.dta
+
 	
 global baseline   m_iq_base hrabc_index mwork birthyear
 global skills     cognitionfactor positiveind 
